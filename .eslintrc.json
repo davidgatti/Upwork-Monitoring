@@ -1,0 +1,53 @@
+{
+    "root": true,
+    "env": {
+        "es2021": true
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "semi-style": ["error", "last"],
+        "semi-spacing": ["error", {"before": false, "after": true}],
+        "quotes": ["error", "double"],
+        "array-bracket-spacing": [ "error", "always" ],
+        "arrow-spacing": ["error", { "before": true, "after": true }],
+        "block-spacing": ["error", "always"],
+        "comma-dangle": ["error", "never"],
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        "comma-style": ["error", "last"],
+        "dot-location": ["error", "property"],
+        "generator-star-spacing": ["error", {"before": true, "after": true}],
+        "yield-star-spacing": ["error", "both"],
+        "implicit-arrow-linebreak": ["error", "beside"],
+        "key-spacing": ["error", { "beforeColon": false }],
+        "keyword-spacing": ["error", { "after": true }],
+        "linebreak-style": ["error", "unix"],
+        "line-comment-position": ["error", { "position": "above" }],
+        "lines-around-comment": ["error", {
+            "beforeBlockComment": true,
+            "afterBlockComment": false,
+            "allowBlockStart": false,
+            "allowClassStart": false
+        }],
+        "lines-between-class-members": ["error", "always"],
+        "max-len": ["error", { "code": 80 }],
+        "no-mixed-spaces-and-tabs": "error",
+        "no-multi-spaces": "error",
+        "no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 0, "maxEOF": 1 }],
+        "spaced-comment": ["error", "always"],
+        "space-before-function-paren": ["error", "never"],
+        "multiline-comment-style": ["error", "separate-lines"],
+        "object-property-newline": ["error",{ "allowAllPropertiesOnSameLine": false }],
+        "no-trailing-spaces": "error",
+        "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }],
+        "object-curly-spacing": ["error", "always"],
+        "operator-linebreak": ["error", "before"],
+        "rest-spread-spacing": ["error", "never"],
+        "space-before-blocks": "error",
+        "space-in-parens": ["error", "never"],
+        "space-infix-ops": "error",
+        "space-unary-ops": "error",
+        "no-else-return": ["error", {"allowElseIf": false}],
+        "no-unused-vars": "error",
+        "no-unused-expressions": "error"
+    }
+}

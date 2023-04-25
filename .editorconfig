@@ -1,0 +1,36 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+#
+#	top-most EditorConfig file
+#
+root = true
+
+#
+#	Default Settings.
+#
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+#
+#	Custom indentation for special files that we don't have control over.
+#
+[package.json]
+indent_style = space
+indent_size = 2
+
+#
+#   This allows us to have compliant MD files.
+#
+[*.md]
+trim_trailing_whitespace = false
+
+#
+#   YML files only work with space indentation.
+#
+[*.yml]
+indent_style = space

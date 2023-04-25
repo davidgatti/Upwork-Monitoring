@@ -1,0 +1,55 @@
+{
+    "Records": [
+        {
+            "eventID": "5393682c59a288f30f87b4de207b734f",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1678459057,
+                "Keys": {
+                    "sk": {
+                        "S": "translation#en#a6c147b2-67b1-45e1-9f67-d5903b882c01"
+                    },
+                    "pk": {
+                        "S": "recipes"
+                    }
+                },
+                "NewImage": {
+                    "recipe_id": {
+                        "S": "a6c147b2-67b1-45e1-9f67-d5903b882c01"
+                    },
+                    "sk": {
+                        "S": "translation#en#a6c147b2-67b1-45e1-9f67-d5903b882c01"
+                    },
+                    "description": {
+                        "S": "All the ingreediens can eat this."
+                    },
+                    "time_created": {
+                        "S": "2023-03-10T14:37:36.754Z"
+                    },
+                    "language": {
+                        "S": "en"
+                    },
+                    "history": {
+                        "S": "Nutella is a popular chocolate-hazelnut spread that was first created in Italy in the 1940s. The spread was invented by Pietro Ferrero, a pastry maker from Piedmont, Italy. During World War II, there was a shortage of cocoa in Italy, so Ferrero began experimenting with hazelnuts as a substitute. He created a paste made from hazelnuts, sugar, and a small amount of cocoa, which he called \"Giandujot.\"\n\nIn 1964, Ferrero's son, Michele, modified the recipe and renamed the spread \"Nutella.\" The new recipe included more sugar and vegetable oil, which made the spread smoother and easier to spread. Nutella quickly became popular in Italy and soon spread to other countries.\n\nToday, Nutella is sold in over 160 countries and is one of the most popular spreads in the world. The Ferrero company, which produces Nutella, has expanded its product line to include other chocolate and hazelnut-based products, such as Ferrero Rocher and Kinder Bueno."
+                    },
+                    "pk": {
+                        "S": "recipes"
+                    },
+                    "title": {
+                        "S": "Pasta with tomato souce."
+                    },
+                    "precaution": {
+                        "S": "Precaution that needs to make sense."
+                    }
+                },
+                "SequenceNumber": "20130100000000016089428967",
+                "SizeBytes": 357,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:156088805943:table/general/stream/2023-03-06T07:37:24.394"
+        }
+    ]
+}

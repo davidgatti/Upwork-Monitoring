@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    on-failure: ABORT
+    commands:
+      - n 16
+      - npm install -g npm@8
+  build:
+    on-failure: ABORT
+    commands:
+      - npm install
+  post_build:
+    on-failure: ABORT
+    commands:
+      - zip -r code.zip .
+      - aws lambda update-function-code --function-name trigger_ddb_translation_recipes --zip-file fileb://./code.zip
